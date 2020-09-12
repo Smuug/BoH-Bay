@@ -9593,13 +9593,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/foreport)
-"tc" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1;
-	level = 2
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/seconddeck/foreport)
 "te" = (
 /obj/structure/catwalk,
 /obj/structure/cable{
@@ -9613,13 +9606,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/seconddeck/foreport)
-"tf" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1;
-	frequency = 1331
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/foreport)
@@ -11458,6 +11444,9 @@
 	},
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
+/obj/item/weapon/folder/blue,
+/obj/item/weapon/folder/blue,
+/obj/item/weapon/folder/blue,
 /turf/simulated/floor/tiled,
 /area/assembly/robotics/lower)
 "xG" = (
@@ -12995,12 +12984,6 @@
 /obj/effect/floor_decal/industrial/warning/full,
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/foreport)
-"BO" = (
-/obj/item/weapon/folder/blue,
-/obj/item/weapon/folder/blue,
-/obj/item/weapon/folder/blue,
-/turf/simulated/wall/r_wall/prepainted,
-/area/assembly/robotics/lower)
 "BQ" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/door/firedoor,
@@ -33063,7 +33046,7 @@ pi
 pi
 pi
 te
-tf
+pi
 sJ
 Wp
 Wp
@@ -33871,7 +33854,7 @@ vG
 vG
 vG
 ta
-tc
+pi
 sJ
 Wp
 Wp
@@ -39101,7 +39084,7 @@ eK
 fu
 gj
 XR
-BO
+XR
 XR
 XR
 XR
